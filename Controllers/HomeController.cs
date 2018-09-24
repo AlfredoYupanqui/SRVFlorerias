@@ -29,8 +29,10 @@ namespace SRVFlorerias.Controllers
             return View();
         }
 
-        public IActionResult Producto()
+        public IActionResult RegistrarProducto()
         {
+            Producto obj = new Producto();
+
             ViewData["Message"] = "Your contact page.";
 
             return View();

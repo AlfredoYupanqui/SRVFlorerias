@@ -1,0 +1,14 @@
+body{
+    background-color: #EDBEF1;
+}
+label {
+    padding: 12px 0px 12px 0;
+    display: inline-block;
+}
+input[type=text], textarea {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}

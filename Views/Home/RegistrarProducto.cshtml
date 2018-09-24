@@ -1,23 +1,71 @@
-﻿@model demomvc.Models.Producto
+﻿
+@model SRVFlorerias.Models.Producto
+
 
 @{
-    ViewData["Title"] = "Producto";
+    ViewData["Title"] = "Registrar Producto";
 }
+<!-- 
 <h2>@ViewData["Title"]</h2>
 <h3>@ViewData["Message"]</h3>
+-->
 
-<div class="row">
-<div class="col-md-4">
-<form asp-action="Create">
-    <div class="form-group">
-        <input asp-for="Id" class="form-control" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" type="text/css" href="css/formulario.css">
+
+	<title>Registrar Producto</title>
+    <h2 align="center">@ViewData["Title"]</h2>
+
+</head>
+<body>
+
+    <div class="row">
+    <div class="col-md-4">
+    <form asp-action="Create">
+        <div class="form-group">
+            <label>Tipo de product</label>
+             <select asp-for="Tipo" class="form-control" style="background-color:#E31717;color:white" >
+                <option value="tipo01">Tipo 01</option>
+                <option value="tipo02">Tipo 02</option>
+                <option value="tipo03">Tipo 03</option>
+            </select>         </div>
+        <div class="form-group">
+            <label>Nombre de Arreglo</label>
+            <input asp-for="Nombre" class="form-control" placeholder="Ingrese nombre del arreglo" />
+        </div>
+        <div class="form-group">
+            <label>Categoria</label>
+            <select asp-for="Categoria" class="form-control" >
+                <option value="cat01">Amor</option>
+                <option value="cat02">Amigo</option>
+                <option value="cat03">Aniversario</option>
+            </select> 
+        </div>
+        <div class="form-group">
+            <label>Precio</label>
+            <input type="number" asp-for="Precio" class="form-control" placeholder="Ingrese precio" min="0"/>
+        </div>
+        <div class="form-group">
+            <label>Stock</label>
+            <input type="number" asp-for="Stock" class="form-control" min="1" />
+        </div>
+        <div class="form-group">
+            <label>Descuento</label>
+            <input type="number" asp-for="Dscto" class="form-control" placeholder="Opcional"/>
+        </div>
+        <div class="form-group">
+            <label>Descripción</label>
+            <input asp-for="Descripcion" class="form-control" placeholder="Ingrese alguna descripción" />
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Registrar" class="btn btn-primary" style="background-color:#E31717"/>
+        </div>
+    </form>
     </div>
-    <div class="form-group">
-        <input asp-for="Name" class="form-control" />
     </div>
-    <div class="form-group">
-        <input type="submit" value="Create" class="btn btn-primary" />
-    </div>
-</form>
-</div>
-</div>
+</body>
+</html>
+
