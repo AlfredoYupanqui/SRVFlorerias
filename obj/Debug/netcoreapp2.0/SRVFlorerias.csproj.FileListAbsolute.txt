@@ -20,3 +20,14 @@ D:\ProgramacionI\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.AssemblyInfoI
 D:\ProgramacionI\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.AssemblyInfo.cs
 D:\ProgramacionI\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.dll
 D:\ProgramacionI\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.pdb
+D:\SRVFlorerias-Repositorio\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.deps.json
+D:\SRVFlorerias-Repositorio\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.runtimeconfig.json
+D:\SRVFlorerias-Repositorio\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.runtimeconfig.dev.json
+D:\SRVFlorerias-Repositorio\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.dll
+D:\SRVFlorerias-Repositorio\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.pdb
+D:\SRVFlorerias-Repositorio\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.csprojAssemblyReference.cache
+D:\SRVFlorerias-Repositorio\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.csproj.CoreCompileInputs.cache
+D:\SRVFlorerias-Repositorio\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.AssemblyInfoInputs.cache
+D:\SRVFlorerias-Repositorio\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.AssemblyInfo.cs
+D:\SRVFlorerias-Repositorio\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.dll
+D:\SRVFlorerias-Repositorio\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.pdb
