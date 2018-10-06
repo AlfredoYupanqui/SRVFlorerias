@@ -1,1 +1,401 @@
 
+@model SRVFlorerias.Models.Empleado
+	
+
+	
+
+	@{
+	    ViewData["Title"] = "Gestionar Empleado";
+	}
+	<!-- 
+	<h2>@ViewData["Title"]</h2>
+	<h3>@ViewData["Message"]</h3>
+	-->
+	
+
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	
+
+	<link rel="stylesheet" type="text/css" href="css/formulario.css">
+  <title>SB Admin 2 - Bootstrap Admin Theme</title>
+  
+    </head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+					<img class="site-logo" src="https://www.marysfloreria.com/wp-content/uploads/2016/10/LOGOREDONDO.png" alt="Marys Florer�a" style="    position: relative;
+    max-height: 90px;margin-top: -12px;">
+				</a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+                
+                <!-- /.dropdown -->
+                
+                <!-- /.dropdown -->
+                
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+
+            <div class="navbar-default sidebar" role="navigation">
+                <div class="sidebar-nav navbar-collapse">
+                    <ul class="nav" id="side-menu">
+                        <li class="sidebar-search">
+                            <div class="input-group custom-search-form">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                            </div>
+                            <!-- /input-group -->
+                        </li>
+                        <li>
+                            <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> opcion 1</a>
+                        </li>
+                        
+                        
+                    </ul>
+                </div>
+                <!-- /.sidebar-collapse -->
+            </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Gestion de Empleado</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+			 <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="margin-bottom: 1%;">Registrar</button>
+			
+			<div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Gestionar de Empleado
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <table width="100%" class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                <thead>
+                                    <tr>
+                                        <th>APELLIDO PATERNO</th>
+                                        <th>APELLIDO MATERNO</th>
+                                        <th>DIRECCION</th>
+                                        <th>TELEFONO</th>
+                                        <th>EMAIL</th>
+										<th>FECHA INGRESO</th>
+										<th>TIPO TRABAJADOR</th>
+										<th>OPCIONES</th>
+									</tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="odd gradeX">
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+										<td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">4</td>
+                                        <td class="center">
+											<button type="button" class="btn btn-default btn-circle" data-toggle="modal" data-target="#myModalA"><i class="fa fa-edit"></i>
+											</button>
+											<button type="button" class="btn btn-default btn-circle"><i class="fa fa-trash-o"></i>
+											</button>
+										</td>
+                                    </tr>
+									 <tr class="odd gradeX">
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+										<td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">4</td>
+                                        <td class="center">
+											<button type="button" class="btn btn-default btn-circle" data-toggle="modal" data-target="#myModalA"><i class="fa fa-edit"></i>
+											</button>
+											<button type="button" class="btn btn-default btn-circle"><i class="fa fa-trash-o"></i>
+											</button>
+										</td>
+                                    </tr>
+									 <tr class="odd gradeX">
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+										<td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">4</td>
+                                        <td class="center">
+											<button type="button" class="btn btn-default btn-circle" data-toggle="modal" data-target="#myModalA"><i class="fa fa-edit"></i>
+											</button>
+											<button type="button" class="btn btn-default btn-circle"><i class="fa fa-trash-o"></i>
+											</button>
+										</td>
+                                    </tr> <tr class="odd gradeX">
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+										<td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">4</td>
+                                        <td class="center">
+											<button type="button" class="btn btn-default btn-circle" data-toggle="modal" data-target="#myModalA"><i class="fa fa-edit"></i>
+											</button>
+											<button type="button" class="btn btn-default btn-circle"><i class="fa fa-trash-o"></i>
+											</button>
+										</td>
+                                    </tr> <tr class="odd gradeX">
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+										<td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">4</td>
+                                        <td class="center">
+											<button type="button" class="btn btn-default btn-circle" data-toggle="modal" data-target="#myModalA"><i class="fa fa-edit"></i>
+											</button>
+											<button type="button" class="btn btn-default btn-circle"><i class="fa fa-trash-o"></i>
+											</button>
+										</td>
+                                    </tr> <tr class="odd gradeX">
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+										<td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">4</td>
+                                        <td class="center">
+											<button type="button" class="btn btn-default btn-circle" data-toggle="modal" data-target="#myModalA"><i class="fa fa-edit"></i>
+											</button>
+											<button type="button" class="btn btn-default btn-circle"><i class="fa fa-trash-o"></i>
+											</button>
+										</td>
+                                    </tr> <tr class="odd gradeX">
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+										<td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">4</td>
+                                        <td class="center">
+											<button type="button" class="btn btn-default btn-circle" data-toggle="modal" data-target="#myModalA"><i class="fa fa-edit"></i>
+											</button>
+											<button type="button" class="btn btn-default btn-circle"><i class="fa fa-trash-o"></i>
+											</button>
+										</td>
+                                    </tr> <tr class="odd gradeX">
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+										<td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">4</td>
+                                        <td class="center">
+											<button type="button" class="btn btn-default btn-circle" data-toggle="modal" data-target="#myModalA"><i class="fa fa-edit"></i>
+											</button>
+											<button type="button" class="btn btn-default btn-circle"><i class="fa fa-trash-o"></i>
+											</button>
+										</td>
+                                    </tr> <tr class="odd gradeX">
+                                        <td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+										<td>Trident</td>
+                                        <td>Internet Explorer 4.0</td>
+                                        <td>Win 95+</td>
+                                        <td class="center">4</td>
+                                        <td class="center">
+											<button type="button" class="btn btn-default btn-circle" data-toggle="modal" data-target="#myModalA"><i class="fa fa-edit"></i>
+											</button>
+											<button type="button" class="btn btn-default btn-circle"><i class="fa fa-trash-o"></i>
+											</button>
+										</td>
+                                    </tr>
+                                   
+                                   
+                                </tbody>
+                            </table>
+                            <!-- /.table-responsive -->
+                            
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            
+            <!-- /.row -->
+            
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+			
+			  <!-- Modal content-->
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  <h4 class="modal-title">REGISTRO DE EMPLEADO</h4>
+				</div>
+				<div class="modal-body">
+							<div class="form-group">
+                                <label>NOMBRE</label>
+                                <input class="form-control">
+                               
+                            </div>
+							<div class="form-group">
+                                <label>APELLIDO PATERNO</label>
+                                <input class="form-control">
+                               
+                            </div>
+							 <div class="form-group">
+                                <label>APELLIDO MATERNO</label>
+                                <input class="form-control">
+                               
+                             </div>
+							 <div class="form-group">
+                                  <label>DIRECCION</label>
+                                  <input class="form-control">
+                                 
+                             </div>
+							 <div class="form-group">
+                                  <label>DOCUMENTO</label>
+                                  <input class="form-control">
+                                 
+                             </div>
+							 <div class="form-group">
+                                          <label>TELEFONO</label>
+                                          <input class="form-control">
+                                         
+                             </div>
+							<div class="form-group">
+                                <label>CORREO</label>
+                                <input class="form-control">
+                               
+                            </div>
+							<div class="form-group">
+                                <label>TIPO USUARIO</label>
+                                <input class="form-control">
+                               
+                            </div>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-default" data-dismiss="modal">Guardar</button>
+				</div>
+			  </div>
+			  
+			</div>
+		  </div>
+	
+	
+		<div class="modal fade" id="myModalA" role="dialog">
+			<div class="modal-dialog">
+			
+			  <!-- Modal content-->
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				  <h4 class="modal-title">EDITAR DE EMPLEADO</h4>
+				</div>
+				<div class="modal-body">
+							<div class="form-group">
+                                <label>NOMBRE</label>
+                                <input class="form-control">
+                               
+                            </div>
+							<div class="form-group">
+                                <label>APELLIDO PATERNO</label>
+                                <input class="form-control">
+                               
+                            </div>
+							 <div class="form-group">
+                                <label>APELLIDO MATERNO</label>
+                                <input class="form-control">
+                               
+                             </div>
+							 <div class="form-group">
+                                  <label>DIRECCION</label>
+                                  <input class="form-control">
+                                 
+                             </div>
+							 <div class="form-group">
+                                  <label>DOCUMENTO</label>
+                                  <input class="form-control">
+                                 
+                             </div>
+							 <div class="form-group">
+                                          <label>TELEFONO</label>
+                                          <input class="form-control">
+                                         
+                             </div>
+							<div class="form-group">
+                                <label>CORREO</label>
+                                <input class="form-control">
+                               
+                            </div>
+							<div class="form-group">
+                                <label>TIPO USUARIO</label>
+                                <input class="form-control">
+                               
+                            </div>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			  </div>
+			  
+			</div>
+		  </div>
+      
+           </body>
+           </html>
