@@ -12668,11 +12668,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ProgramacionI\\SRVFlorerias\\SRVFlorerias.csproj",
+      "projectUniqueName": "d:\\Repositorio\\SRVFlorerias\\SRVFlorerias.csproj",
       "projectName": "SRVFlorerias",
-      "projectPath": "D:\\ProgramacionI\\SRVFlorerias\\SRVFlorerias.csproj",
+      "projectPath": "d:\\Repositorio\\SRVFlorerias\\SRVFlorerias.csproj",
       "packagesPath": "C:\\Users\\DCX\\.nuget\\packages\\",
-      "outputPath": "D:\\ProgramacionI\\SRVFlorerias\\obj\\",
+      "outputPath": "d:\\Repositorio\\SRVFlorerias\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

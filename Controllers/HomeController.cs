@@ -29,14 +29,17 @@ namespace SRVFlorerias.Controllers
             return View();
         }
 
-        public IActionResult RegistrarProducto()
-        {
-            Producto obj = new Producto();
 
-            ViewData["Message"] = "Your contact page.";
+        public IActionResult GestionEmpleado()
+        {
+            Empleado obj = new Empleado();
+
+            ViewData["Message"] = "Pagina de Gestión de Empleados.";
 
             return View();
         }
+
+
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });

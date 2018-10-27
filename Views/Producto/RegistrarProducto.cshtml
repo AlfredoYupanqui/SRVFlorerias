@@ -1,30 +1,30 @@
 ﻿
-@model SRVFlorerias.Models.Producto
-
+@model Producto
 
 @{
     ViewData["Title"] = "Registrar Producto";
 }
 <!-- 
-<h2>@ViewData["Title"]</h2>
-<h3>@ViewData["Message"]</h3>
+    SRVFlorerias.Models.
 -->
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <link rel="stylesheet" type="text/css" href="css/formulario.css">
-
 	<title>Registrar Producto</title>
     <h2 align="center">@ViewData["Title"]</h2>
-
 </head>
 <body>
 
     <div class="row">
+
     <div class="col-md-4">
     <form asp-action="Create">
+        <div class="form-group">
+            <input type="submit" value="Registrar" class="btn btn-primary" style="background-color:#E31717"/>
+            <a href="lista" class="btn btn-primary" role="button">Listar</a>
+        </div>
         <div class="form-group">
             <label>Tipo de product</label>
              <select asp-for="Tipo" class="form-control" style="background-color:#E31717;color:white" >
@@ -60,11 +60,11 @@
             <label>Descripción</label>
             <input asp-for="Descripcion" class="form-control" placeholder="Ingrese alguna descripción" />
         </div>
-        <div class="form-group">
-            <input type="submit" value="Registrar" class="btn btn-primary" style="background-color:#E31717"/>
-        </div>
     </form>
     </div>
+    <div class="col-md-4">
+            <img src="https://www.florerialasdonas.com/upload/15149063011800flw.112s.jpg" />
+    </div> 
     </div>
 </body>
 </html>
