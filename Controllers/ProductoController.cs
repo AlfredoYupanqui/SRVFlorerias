@@ -12,7 +12,7 @@ namespace SRVFlorerias.Controllers
     {
         public IActionResult Index()
         {
-            ViewData["Message"] = "Gestionar.";
+            ViewData["Message"] = "Gestionarr.";
             return View();
         }
         public IActionResult RegistrarProducto()
