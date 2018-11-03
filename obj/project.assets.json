@@ -13446,11 +13446,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Clase\\Desktop\\fernando\\SRVFlorerias\\SRVFlorerias.csproj",
+      "projectUniqueName": "C:\\Users\\Clase\\Desktop\\adderly\\SRVFlorerias\\SRVFlorerias.csproj",
       "projectName": "SRVFlorerias",
-      "projectPath": "C:\\Users\\Clase\\Desktop\\fernando\\SRVFlorerias\\SRVFlorerias.csproj",
+      "projectPath": "C:\\Users\\Clase\\Desktop\\adderly\\SRVFlorerias\\SRVFlorerias.csproj",
       "packagesPath": "C:\\Users\\Clase\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Clase\\Desktop\\fernando\\SRVFlorerias\\obj\\",
+      "outputPath": "C:\\Users\\Clase\\Desktop\\adderly\\SRVFlorerias\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
