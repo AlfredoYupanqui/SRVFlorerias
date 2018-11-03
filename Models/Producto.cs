@@ -21,6 +21,7 @@ namespace SRVFlorerias.Models
         public double Dscto { get; set; }
         //Descripción
         public string Descripcion { get; set; }
+        //Foto
         public string Foto { get; set; }
     }       
 
