@@ -12,7 +12,6 @@ namespace SRVFlorerias.Controllers
     {
         public IActionResult Index()
         {
-            ViewData["Message"] = "Gestionar Contacto.";
             return View();
         }
 
@@ -22,5 +21,6 @@ namespace SRVFlorerias.Controllers
 
             return View();
         }
+
     }
 }
