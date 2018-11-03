@@ -420,6 +420,7 @@ body {
       border-right-width: 15px;
       border-left-width: 0;
     }
+  
     ul.timeline > li > .timeline-panel:after {
       right: auto;
       left: -14px;
