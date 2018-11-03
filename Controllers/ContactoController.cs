@@ -15,17 +15,11 @@ namespace SRVFlorerias.Controllers
             ViewData["Message"] = "Gestionar Contacto.";
             return View();
         }
-        public IActionResult RegistrarContacto()
-        {
-            Contacto obj = new Contacto();
 
-            ViewData["Message"] = "Gestionar Contacto.";
-            return View();
-        }   
-
-        public IActionResult Ver(int id)
+        public IActionResult Contact()
         {
-            ViewData["Message"] = "Gracias por contactarte con nosotros";
+            ViewData["Message"] = "Your contact page.";
+
             return View();
         }
     }
