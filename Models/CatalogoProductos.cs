@@ -8,55 +8,57 @@ namespace SRVFlorerias.Models
         private List<Producto> _datos = new List<Producto>();
 
         public CatalogoProductos() {
+            
             _datos.Add(new Producto {
                 Id = 1,
                 Nombre = "Rosas",
-                Foto = "https://www.florerialasdonas.com/upload/15149063011800flw.112s.jpg"
+                Foto = "https://www.marysfloreria.com/wp-content/uploads/2018/08/plush-y-tulip.jpg"
             });
+           
             _datos.Add(new Producto {
                 Id = 2,
                 Nombre = "Girasoles",
-                Foto = "https://www.florerialasdonas.com/upload/1501720178girasoles600.jpg"
+                Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/08/centro-girasoles2.jpg"
             });
             _datos.Add(new Producto {
                 Id = 3,
-                Nombre = "Centro de mesa",
-                Foto = "https://www.florerialasdonas.com/media/images/shopping-cart.png"
+                Nombre = "Coronas",
+                Foto = "https://www.marysfloreria.com/wp-content/uploads/2018/08/lila.jpg"
 
                 
             });
             _datos.Add(new Producto {
                 Id = 4,
-                Nombre = "Institucionales",
-                Foto = "https://www.florerialasdonas.com/media/images/shopping-cart.png"
+                Nombre = "Tulipanes Primaveral",
+                Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/07/Tulipanes05.jpg"
 
                 
             });
              _datos.Add(new Producto {
                 Id = 5,
-                Nombre = "Cumpleaños",
-                Foto = "https://www.florerialasdonas.com/media/images/shopping-cart.png"
+                Nombre = "Inaguración",
+                Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/07/Inaguraciones07.jpg"
 
                 
             });
             _datos.Add(new Producto {
                 Id = 5,
-                Nombre = "Eventos",
-                Foto = "https://www.florerialasdonas.com/media/images/shopping-cart.png"
+                Nombre = "Cumpleaños",
+                Foto = "https://www.marysfloreria.com/wp-content/uploads/2018/08/ana.jpg"
 
                 
             });
             _datos.Add(new Producto {
                 Id = 6,
                 Nombre = "Bouquets",
-                Foto = "https://www.florerialasdonas.com/media/images/shopping-cart.png"
+                Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/07/4-bouquet-04-1006x1024.jpg"
 
                 
             });
               _datos.Add(new Producto {
                 Id = 7,
-                Nombre = "Amor",
-                Foto = "https://www.florerialasdonas.com/media/images/shopping-cart.png"
+                Nombre = "Nacimiento",
+                Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/07/ES-NENA.jpg"
 
                 
             });

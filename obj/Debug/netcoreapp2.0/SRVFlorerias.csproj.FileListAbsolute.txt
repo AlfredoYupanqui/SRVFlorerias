@@ -64,3 +64,14 @@ D:\Repositorio\Floreria\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.Assemb
 D:\Repositorio\Floreria\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.AssemblyInfo.cs
 D:\Repositorio\Floreria\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.dll
 D:\Repositorio\Floreria\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.pdb
+C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.deps.json
+C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.runtimeconfig.json
+C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.runtimeconfig.dev.json
+C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.dll
+C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.pdb
+C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.csprojAssemblyReference.cache
+C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.csproj.CoreCompileInputs.cache
+C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.AssemblyInfoInputs.cache
+C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.AssemblyInfo.cs
+C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.dll
+C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.pdb
