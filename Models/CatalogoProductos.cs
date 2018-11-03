@@ -53,6 +53,13 @@ namespace SRVFlorerias.Models
 
                 
             });
+              _datos.Add(new Producto {
+                Id = 7,
+                Nombre = "Amor",
+                Foto = "https://www.florerialasdonas.com/media/images/shopping-cart.png"
+
+                
+            });
         }
         public List<Producto> Listar() {
             return _datos;
