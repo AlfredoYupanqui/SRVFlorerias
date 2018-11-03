@@ -15,8 +15,11 @@ namespace SRVFlorerias.Models
         public string Categoria { get; set; }
         //Precio
         public double Precio { get; set; }
+        //Stock
         public double Stock { get; set; }
+        //Descuento
         public double Dscto { get; set; }
+        //Descripción
         public string Descripcion { get; set; }
         public string Foto { get; set; }
     }       
