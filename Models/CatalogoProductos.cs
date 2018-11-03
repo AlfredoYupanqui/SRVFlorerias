@@ -25,6 +25,27 @@ namespace SRVFlorerias.Models
 
                 
             });
+            _datos.Add(new Producto {
+                Id = 4,
+                Nombre = "Institucionales",
+                Foto = "https://www.florerialasdonas.com/media/images/shopping-cart.png"
+
+                
+            });
+             _datos.Add(new Producto {
+                Id = 5,
+                Nombre = "Cumpleaños",
+                Foto = "https://www.florerialasdonas.com/media/images/shopping-cart.png"
+
+                
+            });
+            _datos.Add(new Producto {
+                Id = 5,
+                Nombre = "Eventos",
+                Foto = "https://www.florerialasdonas.com/media/images/shopping-cart.png"
+
+                
+            });
         }
         public List<Producto> Listar() {
             return _datos;
