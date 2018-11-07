@@ -38,5 +38,9 @@ namespace SRVFlorerias.Controllers
 
           return View(producto);
         }
+        public IActionResult Mantenimiento()
+        {
+          return View();
+        }
     }
 }

@@ -1,6 +1,4 @@
 using System;
-EmpleadoController.cs
-
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
