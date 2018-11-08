@@ -1,0 +1,11 @@
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\bin\Debug\netcoreapp2.1\SRVFlorerias.deps.json
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\bin\Debug\netcoreapp2.1\SRVFlorerias.runtimeconfig.json
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\bin\Debug\netcoreapp2.1\SRVFlorerias.runtimeconfig.dev.json
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\bin\Debug\netcoreapp2.1\SRVFlorerias.dll
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\bin\Debug\netcoreapp2.1\SRVFlorerias.pdb
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\obj\Debug\netcoreapp2.1\SRVFlorerias.csprojAssemblyReference.cache
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\obj\Debug\netcoreapp2.1\SRVFlorerias.csproj.CoreCompileInputs.cache
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\obj\Debug\netcoreapp2.1\SRVFlorerias.AssemblyInfoInputs.cache
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\obj\Debug\netcoreapp2.1\SRVFlorerias.AssemblyInfo.cs
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\obj\Debug\netcoreapp2.1\SRVFlorerias.dll
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\obj\Debug\netcoreapp2.1\SRVFlorerias.pdb
