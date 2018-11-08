@@ -64,6 +64,27 @@ namespace SRVFlorerias.Models
                
                 
             });
+              _datos.Add(new Producto {
+                Id = 8,
+                Nombre = "Nacimiento",
+                Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/07/ES-NENA.jpg"
+               
+                
+            });
+              _datos.Add(new Producto {
+                Id = 9,
+                Nombre = "Nacimiento",
+                Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/07/ES-NENA.jpg"
+               
+                
+            });
+              _datos.Add(new Producto {
+                Id = 10,
+                Nombre = "Nacimiento",
+                Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/07/ES-NENA.jpg"
+               
+                
+            });
         }
         public List<Producto> Listar() {
             return _datos;
