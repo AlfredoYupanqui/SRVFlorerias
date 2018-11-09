@@ -9,6 +9,9 @@ namespace SRVFlorerias.Models
         public int Nombre { get; set; }
         public int Apellido { get; set; }
         public int  Fecha { get; set; }
+                public int  Fecha { get; set; }
+
+        
     }
 }
 
