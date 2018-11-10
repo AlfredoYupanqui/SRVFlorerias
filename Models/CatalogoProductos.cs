@@ -81,6 +81,7 @@ namespace SRVFlorerias.Models
               _datos.Add(new Producto {
                 Id = 10,
                 Nombre = "Florero con Gerberas",
+                
                 Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/07/florero-primaveral-gerberas.jpg"
                
                 
