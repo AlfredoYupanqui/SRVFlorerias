@@ -66,22 +66,22 @@ namespace SRVFlorerias.Models
             });
               _datos.Add(new Producto {
                 Id = 8,
-                Nombre = "Nacimiento",
-                Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/07/ES-NENA.jpg"
+                Nombre = "Ramos",
+                Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/08/ramo-cono-gerberas2.jpg"
                
                 
             });
               _datos.Add(new Producto {
                 Id = 9,
-                Nombre = "Nacimiento",
-                Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/07/ES-NENA.jpg"
+                Nombre = "Arreglo con Vino",
+                Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/07/cesta-vino.jpg"
                
                 
             });
               _datos.Add(new Producto {
                 Id = 10,
-                Nombre = "Nacimiento",
-                Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/07/ES-NENA.jpg"
+                Nombre = "Florero con Gerberas",
+                Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/07/florero-primaveral-gerberas.jpg"
                
                 
             });
