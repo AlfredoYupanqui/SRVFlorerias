@@ -9,6 +9,7 @@ C:\Users\Clase\Desktop\fernando\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFloreria
 C:\Users\Clase\Desktop\fernando\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.AssemblyInfo.cs
 C:\Users\Clase\Desktop\fernando\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.dll
 C:\Users\Clase\Desktop\fernando\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.pdb
+<<<<<<< HEAD
 C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.deps.json
 C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.runtimeconfig.json
 C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.runtimeconfig.dev.json
@@ -20,3 +21,16 @@ C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\obj\Debug\netcoreapp2.
 C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.AssemblyInfo.cs
 C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.dll
 C:\Users\MILAGROSMERYSANTOSTO\Desktop\prueba\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.pdb
+=======
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.deps.json
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.runtimeconfig.json
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.runtimeconfig.dev.json
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.dll
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\bin\Debug\netcoreapp2.0\SRVFlorerias.pdb
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.csprojAssemblyReference.cache
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.csproj.CoreCompileInputs.cache
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.AssemblyInfoInputs.cache
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.AssemblyInfo.cs
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.dll
+D:\Repositorio\VtaFloreria20181107\SRVFlorerias\obj\Debug\netcoreapp2.0\SRVFlorerias.pdb
+>>>>>>> 5b49d2013110e049182e59dbdfaca4cc07593374
