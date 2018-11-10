@@ -39,7 +39,7 @@ namespace SRVFlorerias.Models
              _datos.Add(new Producto {
                 Id = 5,
                 Nombre = "Inaguración",
-                Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/07/Inaguraciones07.jpg"
+                Foto = "https://www.marysfloreria.com/wp-content/uploads/2017/10/abanico.jpg"
                
                 
             });
@@ -61,8 +61,8 @@ namespace SRVFlorerias.Models
                 Id = 7,
                 Nombre = "Nacimiento",
                 Foto = "https://www.marysfloreria.com/wp-content/uploads/2016/07/ES-NENA.jpg"
-               
-                
+
+
             });
               _datos.Add(new Producto {
                 Id = 8,
