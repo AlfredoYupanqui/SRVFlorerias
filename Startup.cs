@@ -37,7 +37,6 @@ namespace SRVFlorerias
             services.AddDbContext<SRVFloreriasContext>(options =>
                   //options.UseSqlite(@"Data Source=/app/MvcMovie.db")
                   options.UseMySQL("Server=localhost;database=pana;user=root;password=123456;port=3306")
-
                   );      
             //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
