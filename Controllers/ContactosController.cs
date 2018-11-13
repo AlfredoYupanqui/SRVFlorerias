@@ -48,7 +48,7 @@ namespace SRVFlorerias.Models
             _context.Contactos.Remove(contactos);
             _context.SaveChanges();
 
-            return RedirectToAction("Contactos");
+            
         }
 
     }
