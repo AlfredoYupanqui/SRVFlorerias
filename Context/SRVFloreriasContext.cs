@@ -8,7 +8,7 @@ namespace SRVFlorerias.Context
         public SRVFloreriasContext(DbContextOptions<SRVFloreriasContext> dco)
             : base(dco)
         { }
-
         public DbSet<Producto> Productos { get; set; }
+        public DbSet<Contacto> Contactos { get; set; }
     }
 }
