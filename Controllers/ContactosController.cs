@@ -1,4 +1,3 @@
-
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -48,7 +47,7 @@ namespace SRVFlorerias.Models
             _context.Contactos.Remove(contactos);
             _context.SaveChanges();
 
-            
+            return RedirectToAction("Contactos");
         }
 
     }
