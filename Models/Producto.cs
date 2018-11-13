@@ -1,6 +1,5 @@
-using System;
+using System.ComponentModel.DataAnnotations;
 
-//namespace demomvc.Models
 namespace SRVFlorerias.Models
 {
     public class Producto

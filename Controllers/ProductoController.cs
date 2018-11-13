@@ -4,12 +4,19 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using SRVFlorerias.Context;
 using SRVFlorerias.Models;
 
 namespace SRVFlorerias.Controllers
 {
     public class ProductoController : Controller
     {
+        private readonly SRVFloreriasContext _context;
+
+        public ProductoController(SRVFloreriasContext _context)
+        {
+            this._context = _context;
+        }
         public IActionResult Index()
         {
             ViewData["Message"] = "Gestionar.";
