@@ -100,7 +100,7 @@ namespace SRVFlorerias.Models
             
                 empresas= empresas.Where(e => e.numero_documento.Equals(idemple));
                 
-                return View(await empresas.ToListAsync());
+               
                     }
 
 
